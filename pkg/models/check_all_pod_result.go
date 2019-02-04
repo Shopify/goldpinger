@@ -24,6 +24,9 @@ type CheckAllPodResult struct {
 	// o k
 	OK *bool `json:"OK,omitempty"`
 
+	// round trip time m s
+	RoundTripTimeMS int32 `json:"RoundTripTimeMS,omitempty"`
+
 	// error
 	Error string `json:"error,omitempty"`
 

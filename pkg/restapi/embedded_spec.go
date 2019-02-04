@@ -124,6 +124,10 @@ func init() {
           "type": "boolean",
           "default": false
         },
+        "RoundTripTimeMS": {
+          "type": "integer",
+          "format": "int32"
+        },
         "error": {
           "type": "string"
         },
@@ -220,6 +224,10 @@ func init() {
         "OK": {
           "type": "boolean",
           "default": false
+        },
+        "RoundTripTimeMS": {
+          "type": "integer",
+          "format": "int32"
         },
         "error": {
           "type": "string"
@@ -342,6 +350,10 @@ func init() {
           "type": "boolean",
           "default": false
         },
+        "RoundTripTimeMS": {
+          "type": "integer",
+          "format": "int32"
+        },
         "error": {
           "type": "string"
         },
@@ -438,6 +450,10 @@ func init() {
         "OK": {
           "type": "boolean",
           "default": false
+        },
+        "RoundTripTimeMS": {
+          "type": "integer",
+          "format": "int32"
         },
         "error": {
           "type": "string"
