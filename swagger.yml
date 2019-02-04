@@ -36,6 +36,9 @@ definitions:
       status-code:
         type: integer
         format: int32
+      RoundTripTimeMS:
+        type: integer
+        format: int32
   CheckResults:
     type: object
     additionalProperties:
@@ -54,6 +57,9 @@ definitions:
       error:
         type: string
       status-code:
+        type: integer
+        format: int32
+      RoundTripTimeMS:
         type: integer
         format: int32
   CheckAllResults:
